@@ -1,19 +1,16 @@
-###**From Download to Detection:**
+#### **From Download to Detection:**
+#### **A Beginner\'s Guide to Installing OpenCV with C++**
 
-###**A Beginner\'s Guide to Installing OpenCV with C++**
-
-![Installing OpenCV with GPU Support for Visual Studio and C++ \| by
-Batuhan Hangün \|
-Medium](vertopal_0908d14d0eb245c8ac75519537c41092/media/image1.png)
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image1.png)
 
 *\"Welcome to computer vision, where lines of code interpret the visual
 world. OpenCV with C++ is your essential toolkit for image processing,
 real-time object tracking, or creative artificial intelligence
 applications.\"*
 
-##**[Introduction]{.underline}:-**
+## **Introduction:-**
 
-#**What is OpenCV?**
+**What is OpenCV?**
 
 OpenCV (Open Source Computer Vision Library) is a powerful library
 designed for computer vision, machine learning, and image processing. It
@@ -23,9 +20,9 @@ With its rich set of features and robust community support, OpenCV is an
 essential toolkit for anyone venturing into the exciting field of visual
 computing.
 
-##***\"From installation to innovation, C++ and OpenCV fit lenses to your
-###code,***
-###***taking you beyond sight into the world of limitless vision.\"***
+# ***\"From installation to innovation, C++ and OpenCV fit lenses to your
+# code,***
+# ***taking you beyond sight into the world of limitless vision."\"***
 
 If you\'ve ever felt like setting up OpenCV is more of a riddle than a
 routine---you\'re not alone!
@@ -36,7 +33,7 @@ transforming your ideas into projects that recognize, analyze, and
 respond to visual data. So, let's embark on this journey and equip your
 code with the power to perceive!
 
-**[Target Readers]{.underline}:-**
+## **Target Readers:-**
 
 This guide is tailored for a diverse audience eager to explore computer
 vision and image processing with OpenCV in C++:
@@ -62,7 +59,7 @@ vision and image processing with OpenCV in C++:
 By the end, you\'ll have a solid foundation in OpenCV setup and be ready
 to bring your ideas to life in visual computing!
 
-**[Pre-requisites]{.underline}:-**
+## **Pre-requisites:-**
 
 Before diving into this guide, it\'s beneficial to have the following
 prerequisites:
@@ -85,12 +82,13 @@ prerequisites:
 5.  **Curiosity for Computer Vision:** A genuine interest in visual
     computing will enhance your learning experience.
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image2.png){width="2.175in"
-height="1.1303149606299212in"}With these prerequisites in mind, you're
+With these prerequisites in mind, you're
 ready to start your journey into the world of OpenCV and computer
 vision!
 
-**Install Visual Studio (latest version)**
+# **Install Visual Studio (latest version)**
+
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image2.png)
 
 **1.** **Download Visual Studio:**
 
@@ -107,7 +105,7 @@ folder.
 \- During installation, make sure to include the **\"Desktop development
 with C++\"** workload.
 
-**[Potential Challenges and Solutions]{.underline}:-**
+## **Potential Challenges and Solutions:-**
 
 In this section, we\'ll address some common challenges you might
 encounter while installing OpenCV and working with C++. Here are a few
@@ -221,7 +219,7 @@ directory**.
 For example: **D:\\opencv\\build\\x64\\vc16\\bin** (make sure the path
 matches your installation).
 
-**1 2 3**
+#### **1                          2                             3**
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image3.png){width="7.861111111111111in"
 height="3.338888888888889in"}
@@ -309,10 +307,10 @@ use.
 
 3.  **Windows SDK User Mode Libraries**:
 
-**C:\\Program Files (x86)\\Windows
-Kits\\10\\Lib\\10.0.22621.0\\um\\x64** - This path includes user-mode
-libraries for Windows applications, enabling access to crucial Windows
-API functions.
+    **C:\\Program Files (x86)\\Windows
+    Kits\\10\\Lib\\10.0.22621.0\\um\\x64** - This path includes user-mode
+    libraries for Windows applications, enabling access to crucial Windows
+    API functions.
 
 4.  **Windows SDK Universal C Runtime Libraries**:
 
@@ -320,8 +318,7 @@ API functions.
 Kits\\10\\Lib\\10.0.22621.0\\ucrt\\x64** - This directory provides the
 Universal C Runtime libraries required for standard C/C++ operations.
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image5.png){width="7.32382217847769in"
-height="5.041909448818898in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image5.png)
 
 *Adding these paths will allow your compiler to locate the necessary
 libraries, enabling you to leverage the full capabilities of OpenCV and
@@ -334,9 +331,9 @@ the Windows API in your C++ projects*.
     module-specific libraries as needed (e.g., opencv_core4100d.lib,
     opencv_imgproc4100d.lib, etc.) for which we will include the header
 
-***#include \<opencv2/opencv.hpp\>***
+    ***#include \<opencv2/opencv.hpp\>***
 
-***using namespace cv;***
+    ***using namespace cv;***
 
 2.  **Visual Studio Libraries**: Standard libraries such as libcmt.lib,
     msvcrt.lib, etc.
@@ -373,8 +370,8 @@ in the \"Additional Dependencies\" field**.
     mode library \`**opencv_world4100d.lib\`.***
 
 -   Now add other libraries: **msvcrt.lib; kernel32.lib; ucrtd.lib**
+    *(Libraries must be separated with a semicolon).*
 
-*(Libraries must be separated with a semicolon).*
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image6.png){width="7.030302930883639in"
 height="5.150553368328959in"}
 
@@ -386,9 +383,9 @@ under **VC++ Directories** also.
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image7.png){width="7.295454943132109in"
 height="5.135416666666667in"}
 
-**[Verifying your Installation]{.underline}:-**
+**Verifying your Installation:-**
 
-**[Write Your First OpenCV Program]{.underline}**
+**Write Your First OpenCV Program**
 
 Here's a simple program to test your installation: ***Reading and
 displaying an image***
@@ -422,15 +419,15 @@ return 0;
 
 }
 
-***Our First OpenCV program in C++***
+# ***Our First OpenCV program in C++***
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image8.png){width="7.766666666666667in"
 height="5.634722222222222in"}
 
 **Note: This is a sample program only. Here I am trying to display an
-image of Radha Krishna, that I have in my system, for demo.**
+image of Radha Krishna, that I have in my system, for demo. Also, I am displaying the size of image using size function.**
 
-**[Build and Run Your Project]{.underline}**
+# **Build and Run Your Project**
 
 1\. **Build the Project:**
 
@@ -452,7 +449,7 @@ height="4.133333333333334in"}
 ***We successfully executed our first OpenCV C++ program with the
 blessings of God.***
 
-**Troubleshooting Tips:**
+# **Troubleshooting Tips:**
 
 -   If you encounter any errors related to missing DLLs when running
     your program, ensure the path to the OpenCV \`bin\` directory is
@@ -465,7 +462,7 @@ blessings of God.***
 By following these steps, you should be able to successfully install
 OpenCV and set it up in Visual Studio for your projects. Happy coding!
 
-**[Experimenting with More OpenCV Functions]{.underline}:-**
+## **Experimenting with More OpenCV Functions:-**
 
 ***Image Blurring with OpenCV***
 
@@ -499,7 +496,7 @@ height="5.805555555555555in"}
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image15.png){width="7.814516622922135in"
 height="4.483023840769904in"}
 
-**[Conclusion]{.underline}:-**
+# **[Conclusion]{.underline}:-**
 
 With OpenCV now set up in Visual Studio, your C++ projects are equipped
 for powerful computer vision tasks. From image analysis to real-time
@@ -508,8 +505,9 @@ foundation, explore basic functions or dive into advanced topics like
 image processing and object detection---your vision-ready code is set to
 unlock the digital world.
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image16.png){width="1.1875in"
-height="2.04375in"}**About the Author**
+## **About the Author**
+
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image16.png)
 
 ***Smarth Kaushal**\
 **Sophomore, BE-CSE***\
@@ -528,11 +526,8 @@ GitHub ID: 175465457
 algorithm optimization, artificial intelligence, and software
 development.
 
-**Acknowledgement**
+# **Acknowledgement**
 
-I would like to thank ***Dr. Suresh Raikwar***, Professor from the
-Computer Science and Engineering Department at Thapar University for his
-invaluable guidance and encouragement, inspiring me to explore OpenCV
-and write this blog. This support has been instrumental in developing my
-interest in computer vision and programming.
- 
+Special thanks to ***Dr. Suresh Raikwar*** from the Computer Science and Engineering Department 
+at Thapar University for his invaluable guidance and encouragement, 
+which has been instrumental in developing my interest in computer vision and programming.
