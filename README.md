@@ -172,12 +172,12 @@ confidence. Remember that troubleshooting is a part of the learning
 process, so don\'t hesitate to reach out to the community or refer to
 additional resources if you encounter any issues!
 
-## **[Step-by-Step Installation Guide]:-**
+## **Step-by-Step Installation Guide:-**
 
 Here\'s a step-by-step guide on how to install OpenCV and set it up in
 Visual Studio:
 
-### **[Step 1:** **Download OpenCV]**
+### **Step 1:** **Download OpenCV**
 
 **1.** **Visit the OpenCV Website:**
 
@@ -193,7 +193,7 @@ version) and download the ZIP file.
 \- Extract the downloaded ZIP file to a location on your computer (e.g.,
 **\`D:\\opencv\`**).
 
-### **[Step 2: Set Up Environment Variables]**
+### **Step 2: Set Up Environment Variables**
 
 **1.** **Open System Properties:**
 
@@ -217,14 +217,14 @@ directory**.
 For example: **D:\\opencv\\build\\x64\\vc16\\bin** (make sure the path
 matches your installation).
 
-## **1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  3**
+## **1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  3**
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image3.png)
 
-&nbsp; ***Fig. Illustration of adding path to opencv bin in the Environment
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; ***Fig. Illustration of adding path to opencv bin in the Environment
 Variables.***
 
-### **[Step 3: Create a New Project in Visual Studio]**
+### **Step 3: Create a New Project in Visual Studio**
 
 **1.** **Open Visual Studio:**
 
@@ -238,7 +238,7 @@ Variables.***
 
 \- Enter a **project name and location**, then click **\"Create\".**
 
-### **[Step 4: Configure Project Properties]**
+### **Step 4: Configure Project Properties**
 
 **1.** **Open Project Properties:**
 
@@ -377,9 +377,9 @@ under **VC++ Directories** also.
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image7.png)
 
-**Verifying your Installation:-**
+## **Verifying your Installation:-**
 
-**Write Your First OpenCV Program**
+## **Write Your First OpenCV Program**
 
 Here's a simple program to test your installation: ***Reading and
 displaying an image***
@@ -460,15 +460,12 @@ OpenCV and set it up in Visual Studio for your projects. Happy coding!
 
 ***Program:***
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image12.png){width="7.789141513560805in"
-height="5.346773840769904in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image12.png)
 
 ***Output:***
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image13.png){width="7.870833333333334in"
-height="4.508064304461942in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image13.png)
 
-## ***Color Channel Magic: Extracting and Visualizing RGB Channels with
-OpenCV***
+## ***Color Channel Magic: Extracting and Visualizing RGB Channels with OpenCV***
 
 *OpenCV library functions usually read images in BGR format which means
 the blue plane first, the green color plane next and the red plane at
@@ -480,13 +477,11 @@ corresponds to the strength of the respective color.*
 
 ***Program:***
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image14.png){width="7.758064304461942in"
-height="5.805555555555555in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image14.png)
 
 ***Output:***
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image15.png){width="7.814516622922135in"
-height="4.483023840769904in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image15.png)
 
 # **Conclusion:-**
 
@@ -497,7 +492,7 @@ foundation, explore basic functions or dive into advanced topics like
 image processing and object detection---your vision-ready code is set to
 unlock the digital world.
 
-## **About the Author**
+# **About the Author**
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image16.png)
 
