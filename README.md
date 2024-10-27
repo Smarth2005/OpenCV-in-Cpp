@@ -1,20 +1,19 @@
-**From Download to Detection:**
+###**From Download to Detection:**
 
-**A Beginner\'s Guide to Installing OpenCV with C++**
+###**A Beginner\'s Guide to Installing OpenCV with C++**
 
 ![Installing OpenCV with GPU Support for Visual Studio and C++ \| by
 Batuhan Hangün \|
-Medium](vertopal_0908d14d0eb245c8ac75519537c41092/media/image1.png){width="7.5in"
-height="2.411111111111111in"}
+Medium](vertopal_0908d14d0eb245c8ac75519537c41092/media/image1.png)
 
 *\"Welcome to computer vision, where lines of code interpret the visual
 world. OpenCV with C++ is your essential toolkit for image processing,
 real-time object tracking, or creative artificial intelligence
 applications.\"*
 
-**[Introduction]{.underline}:-**
+##**[Introduction]{.underline}:-**
 
-**What is OpenCV?**
+#**What is OpenCV?**
 
 OpenCV (Open Source Computer Vision Library) is a powerful library
 designed for computer vision, machine learning, and image processing. It
@@ -24,10 +23,9 @@ With its rich set of features and robust community support, OpenCV is an
 essential toolkit for anyone venturing into the exciting field of visual
 computing.
 
-***\"From installation to innovation, C++ and OpenCV fit lenses to your
-code,***
-
-***taking you beyond sight into the world of limitless vision.\"***
+##***\"From installation to innovation, C++ and OpenCV fit lenses to your
+###code,***
+###***taking you beyond sight into the world of limitless vision.\"***
 
 If you\'ve ever felt like setting up OpenCV is more of a riddle than a
 routine---you\'re not alone!
