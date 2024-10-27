@@ -84,7 +84,7 @@ With these prerequisites in mind, you're
 ready to start your journey into the world of OpenCV and computer
 vision!
 
-# **Install Visual Studio (latest version)**
+## **Install Visual Studio (latest version)**
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image2.png)
 
@@ -320,7 +320,7 @@ Universal C Runtime libraries required for standard C/C++ operations.
 libraries, enabling you to leverage the full capabilities of OpenCV and
 the Windows API in your C++ projects*.
 
-**[Libraries that will be used:]**
+### **Libraries that will be used:**
 
 1.  **OpenCV Libraries:** opencv_world4100d.lib (Debug version) ,
     opencv_world4100.lib (Release version) and some other
@@ -377,7 +377,7 @@ under **VC++ Directories** also.
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image7.png)
 
-## **Verifying your Installation:-**
+# **Verifying your Installation:-**
 
 ## **Write Your First OpenCV Program**
 
@@ -413,14 +413,14 @@ return 0;
 
 }
 
-# ***Our First OpenCV program in C++***
+## ***Our First OpenCV program in C++***
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image8.png)
 
 **Note: This is a sample program only. Here I am trying to display an
 image of Radha Krishna, that I have in my system, for demo. Also, I am displaying the size of image using size function.**
 
-# **Build and Run Your Project**
+## **Build and Run Your Project**
 
 1\. **Build the Project:**
 
@@ -454,7 +454,7 @@ blessings of God.***
 By following these steps, you should be able to successfully install
 OpenCV and set it up in Visual Studio for your projects. Happy coding!
 
-## **Experimenting with More OpenCV Functions:-**
+# **Experimenting with More OpenCV Functions:-**
 
 ## ***Image Blurring with OpenCV***
 
