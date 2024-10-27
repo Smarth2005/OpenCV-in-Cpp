@@ -1,5 +1,5 @@
-#### **From Download to Detection:**
-#### **A Beginner\'s Guide to Installing OpenCV with C++**
+# **From Download to Detection:**
+# **A Beginner\'s Guide to Installing OpenCV with C++**
 
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image1.png)
 
@@ -20,9 +20,7 @@ With its rich set of features and robust community support, OpenCV is an
 essential toolkit for anyone venturing into the exciting field of visual
 computing.
 
-# ***\"From installation to innovation, C++ and OpenCV fit lenses to your
-# code,***
-# ***taking you beyond sight into the world of limitless vision."\"***
+#### ***\"From installation to innovation, C++ and OpenCV fit lenses to your code, taking you beyond sight into the world of limitless vision."\"***
 
 If you\'ve ever felt like setting up OpenCV is more of a riddle than a
 routine---you\'re not alone!
@@ -115,9 +113,9 @@ potential problems along with their solutions:
 
 **Problem:** Errors during Visual Studio installation.
 
-**Solution:** Ensure you have a stable internet connection. Check for
-any system updates and restart your computer before attempting
-installation again.
+>**Solution:** Ensure you have a stable internet connection. Check for
+>any system updates and restart your computer before attempting
+>installation again.
 
 2.  **OpenCV Download Problems:**
 
@@ -130,40 +128,40 @@ installation again.
 
 3.  **Environment Variables Not Set:**
 
-> **Problem:** OpenCV not recognized in Visual Studio.
->
+ **Problem:** OpenCV not recognized in Visual Studio.
+
 > **Solution:** Double-check that you\'ve set the environment variables
 > correctly. Ensure there are no typos in the paths and that they point
 > to the right directories.
 
 4.  **Compilation Errors:**
 
-> **Problem:** Getting compilation errors when running OpenCV code.
->
+ **Problem:** Getting compilation errors when running OpenCV code.
+
 > **Solution:** Ensure you've included the correct headers and linked
 > the necessary libraries. Review the code for any syntax errors or
 > missing components.
 
 5.  **Runtime Errors:**
 
-> **Problem:** Application crashes or does not run as expected.
->
+ **Problem:** Application crashes or does not run as expected.
+
 > **Solution:** Check for issues such as incorrect paths to images or
 > videos. Use debugging tools in Visual Studio to identify where the
 > error occurs.
 
 6.  **Lack of Resources:**
 
-> **Problem:** Your computer is running slowly during OpenCV processes.
->
+ **Problem:** Your computer is running slowly during OpenCV processes.
+
 > **Solution:** Close unnecessary applications running in the background
 > and ensure your system meets the minimum requirements for running
 > OpenCV effectively.
 
 7.  **Learning Curve:**
 
-> **Problem:** Difficulty understanding OpenCV functions and concepts.
->
+ **Problem:** Difficulty understanding OpenCV functions and concepts.
+
 > **Solution:** Utilize online resources such as tutorials, forums, and
 > the official OpenCV documentation. Engage with community forums for
 > help and guidance.
@@ -174,12 +172,12 @@ confidence. Remember that troubleshooting is a part of the learning
 process, so don\'t hesitate to reach out to the community or refer to
 additional resources if you encounter any issues!
 
-**[Step-by-Step Installation Guide]{.underline}:-**
+## **[Step-by-Step Installation Guide]:-**
 
 Here\'s a step-by-step guide on how to install OpenCV and set it up in
 Visual Studio:
 
-[**Step 1:** **Download OpenCV**]{.underline}
+### **[Step 1:** **Download OpenCV]**
 
 **1.** **Visit the OpenCV Website:**
 
@@ -195,7 +193,7 @@ version) and download the ZIP file.
 \- Extract the downloaded ZIP file to a location on your computer (e.g.,
 **\`D:\\opencv\`**).
 
-**[Step 2: Set Up Environment Variables]{.underline}**
+### **[Step 2: Set Up Environment Variables]**
 
 **1.** **Open System Properties:**
 
@@ -219,15 +217,14 @@ directory**.
 For example: **D:\\opencv\\build\\x64\\vc16\\bin** (make sure the path
 matches your installation).
 
-#### **1                          2                             3**
+## **1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  3**
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image3.png){width="7.861111111111111in"
-height="3.338888888888889in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image3.png)
 
-***Fig. Illustration of adding path to opencv bin in the Environment
+&nbsp; ***Fig. Illustration of adding path to opencv bin in the Environment
 Variables.***
 
-**[Step 3: Create a New Project in Visual Studio]{.underline}**
+### **[Step 3: Create a New Project in Visual Studio]**
 
 **1.** **Open Visual Studio:**
 
@@ -241,7 +238,7 @@ Variables.***
 
 \- Enter a **project name and location**, then click **\"Create\".**
 
-**[Step 4: Configure Project Properties]{.underline}**
+### **[Step 4: Configure Project Properties]**
 
 **1.** **Open Project Properties:**
 
@@ -276,8 +273,7 @@ processing.*
     Kits\\10\\Lib\\10.0.22621.0\\um\\x64;** this will enable you to link
     against the necessary Windows API functions.
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image4.png){width="7.5in"
-height="5.189583333333333in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image4.png)
 
 **TIP: After you add the directory path in the designated column, first
 click apply and then OK. I would prefer adding all the directories you
@@ -324,7 +320,7 @@ Universal C Runtime libraries required for standard C/C++ operations.
 libraries, enabling you to leverage the full capabilities of OpenCV and
 the Windows API in your C++ projects*.
 
-**[Libraries that will be used:]{.underline}**
+**[Libraries that will be used:]**
 
 1.  **OpenCV Libraries:** opencv_world4100d.lib (Debug version) ,
     opencv_world4100.lib (Release version) and some other
@@ -372,16 +368,14 @@ in the \"Additional Dependencies\" field**.
 -   Now add other libraries: **msvcrt.lib; kernel32.lib; ucrtd.lib**
     *(Libraries must be separated with a semicolon).*
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image6.png){width="7.030302930883639in"
-height="5.150553368328959in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image6.png)
 
 **One Last Step:**
 
 Add the above-mentioned "include" and "lib" in the respective fields
 under **VC++ Directories** also.
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image7.png){width="7.295454943132109in"
-height="5.135416666666667in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image7.png)
 
 **Verifying your Installation:-**
 
@@ -421,8 +415,7 @@ return 0;
 
 # ***Our First OpenCV program in C++***
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image8.png){width="7.766666666666667in"
-height="5.634722222222222in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image8.png)
 
 **Note: This is a sample program only. Here I am trying to display an
 image of Radha Krishna, that I have in my system, for demo. Also, I am displaying the size of image using size function.**
@@ -443,8 +436,7 @@ The program should display the specified image in a pop-up window.
 
 ***Output:***
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image11.png){width="7.833333333333333in"
-height="4.133333333333334in"}
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image11.png)
 
 ***We successfully executed our first OpenCV C++ program with the
 blessings of God.***
@@ -464,7 +456,7 @@ OpenCV and set it up in Visual Studio for your projects. Happy coding!
 
 ## **Experimenting with More OpenCV Functions:-**
 
-***Image Blurring with OpenCV***
+## ***Image Blurring with OpenCV***
 
 ***Program:***
 
@@ -475,7 +467,7 @@ height="5.346773840769904in"}
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image13.png){width="7.870833333333334in"
 height="4.508064304461942in"}
 
-***Color Channel Magic: Extracting and Visualizing RGB Channels with
+## ***Color Channel Magic: Extracting and Visualizing RGB Channels with
 OpenCV***
 
 *OpenCV library functions usually read images in BGR format which means
@@ -496,7 +488,7 @@ height="5.805555555555555in"}
 ![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image15.png){width="7.814516622922135in"
 height="4.483023840769904in"}
 
-# **[Conclusion]{.underline}:-**
+# **Conclusion:-**
 
 With OpenCV now set up in Visual Studio, your C++ projects are equipped
 for powerful computer vision tasks. From image analysis to real-time
