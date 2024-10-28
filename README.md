@@ -515,6 +515,6 @@ development.
 
 # **Acknowledgement**
 
-Special thanks to ***Dr. Suresh Raikwar*** from the Computer Science and Engineering Department 
+Special thanks to ***Dr. Suresh Chandra Raikwar*** from the Computer Science and Engineering Department 
 at Thapar University for his invaluable guidance and encouragement, 
 which has been instrumental in developing my interest in computer vision and programming.
