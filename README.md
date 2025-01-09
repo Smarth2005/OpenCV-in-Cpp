@@ -493,9 +493,6 @@ image processing and object detection---your vision-ready code is set to
 unlock the digital world.
 
 # **About the Author**
-
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image16.png) 
-
 ***Smarth Kaushal**\
 **Sophomore, BE-CSE***\
 Thapar University\
