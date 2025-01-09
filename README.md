@@ -494,7 +494,7 @@ unlock the digital world.
 
 # **About the Author**
 
-![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image16.png)
+![](vertopal_0908d14d0eb245c8ac75519537c41092/media/image16.png = 300x200) 
 
 ***Smarth Kaushal**\
 **Sophomore, BE-CSE***\
